@@ -1,0 +1,255 @@
+
+/*游戏特色模块开始*/
+.gamegood {
+    width: 1200px;
+    height: 590px;
+    margin: 120px auto 0;
+    position: relative;
+    z-index: 20;
+}
+
+.gamegood .goodtitle {
+    height: 92px;
+    width: 518px;
+    margin: 0 auto;
+    background: url(../images/game_title.png) no-repeat;
+    z-index: 100;
+}
+
+.slide {
+    height: 438px;
+    position: relative;
+}
+
+.slide li {
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+
+.gamegood .slide li span {
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    z-index: 1000;
+    display: inline-block;
+    width: 716px;
+    height: 404px;
+}
+
+.cls {
+    border: 1px solid #fff;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    z-index: 1000;
+    width: 716px;
+    height: 404px;
+}
+
+.slide li img {
+    width: 100%;
+}
+
+.prev, .next {
+    width: 42px;
+    height: 82px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -41px;
+    background: url("../images/left.png") no-repeat;
+    z-index: 99;
+}
+
+.next {
+    width: 42px;
+    height: 82px;
+    display: block;
+    right: 0;
+    background: url("../images/right.png") no-repeat;
+}
+
+/*游戏特色模块结束*/
+/*主体部分结束*/
+/*底部开始*/
+.foot {
+    width: 100%;
+    height: 214px;
+    margin-top: 145px;
+    color: #fff;
+    background: url("../images/foot.png") center top;
+    z-index: 100;
+}
+
+.foot .share {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.NIE-share {
+    width: 582px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.foot .share .NIE-share-txt {
+    padding-right: 20px !important;
+    color: #fff !important;
+}
+
+.NIE-share .NIE-share-txt {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.NIE-share-iconBtn li {
+    float: left;
+}
+.NIE-share-iconBtn li a {
+    text-decoration: none;
+    padding-right: 20px;
+    line-height: 14px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.NIE-share-iconBtn li .iconfont {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.NIE-share-iconBtn li a span {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    /*margin-top:-2px;*/
+    /*background-color: #fff;*/
+    /*color: #cccccc;*/
+    padding-right: 4px !important;
+}
+.NIE-share-iconBtn li a span:hover{
+    color: deeppink !important;
+}
+.nie-copyright-new-inner {
+    width: 840px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    font-family: SimSun;
+    line-height: 20px;
+    display: block
+}
+
+.nie-copyright-new-inner .nie-cn-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 280px /*设置最小宽度*/
+}
+
+.nie-copyright-new-inner .nie-cn-logo a {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.nie-copyright-new-inner .nie-cn-logo a.a0 img {
+    padding-right: 0
+}
+
+.nie-copyright-new-inner .nie-cn-logo img {
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.nie-copyright-new-inner .nie-cn-nav {
+    display: inline-block;
+    color: #fff;
+    vertical-align: top;
+    padding-left: 6px;
+    position: relative;
+    z-index: 1;
+    font-family: SimSun;
+}
+
+.nie-copyright-new-inner .nie-cn-nav i {
+    display: block;
+    font-style: normal
+}
+
+.nie-copyright-new-inner .nie-cn-nav i.nie-cn-nav-i2 {
+    height: 28px;
+    line-height: 28px;
+}
+
+.nie-copyright-new-inner .nie-cn-nav a {
+    color: #fff;
+    text-decoration: none
+}
+
+.nie-copyright-new-inner .nie-cn-nav a:hover {
+    text-decoration: underline
+}
+
+.nie-copyright-new-inner .nie-cn-nav .nie-cn-reportcenter {
+    padding-left: 18px;
+    font-style: normal;
+}
+
+.nie-copyright-new-inner .nie-cn-nav a.nie-cn-guardianship {
+    display: inline-block;
+    padding: 2px;
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    top: 21px
+}
+
+.nie-copyright-new-inner .nie-cn-part2 {
+    padding-top: 10px;
+    line-height: 24px
+}
+
+.nie-copyright-new-inner .nie-cn-part2 p {
+    margin: 0
+}
+
+.nie-copyright-new-inner .nie-cn-part2 a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+}
+
+.nie-copyright-new-inner .nie-cn-part2 a:hover {
+    text-decoration: underline
+}
+
+.nie-copyright-new-inner .nie-cn-part2 span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nie-cn-part2 a img {
+    vertical-align: top
+}
+
+/**底部结束/

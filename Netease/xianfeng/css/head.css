@@ -1,0 +1,1008 @@
+.top{
+    height: 48px;
+    /*width: 100%;*/
+    background-color: #61739B;
+}
+
+body{
+    background: #EFEDF2 url("../images/heroes-faceoff.jpg") no-repeat top center;
+    position: relative;
+
+}
+.w{
+    width: 1330px;
+    margin: 0 auto;
+}
+
+/*头部开始*/
+.top .top-left li{
+    float: left;
+    line-height: 48px;
+}
+.top .top-left li a{
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #FFF;
+    opacity: 0.7;
+}
+.top .top-left li a:hover{
+    opacity: 1;
+}
+.top .top-left .li1 {
+    width: 45px;
+    height: 45px;
+    margin-top: 4px;
+    background: url("../images/logo-bnet.png") no-repeat -10px -16px;
+}
+
+.top .top-left .li1:hover{
+    width: 45px;
+    height: 45px;
+    background: url("../images/logo-bnet.png") no-repeat -10px -82px;
+}
+.top .top-left .li2{
+    margin-left: 25px;
+    position: relative;
+}
+.top .top-left .li3{
+    margin-left: 42px;
+}
+
+.top .top-left .iconfont{
+    font-weight: 800;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    color: #fff;
+    opacity: 0.5;
+}
+.top .top-left .iconfont:hover{
+    opacity: 1;
+}
+
+.top .top-left .top-la{
+    width: 450px;
+    height: 289px;
+    position: absolute;
+    top: 40px;
+    left: -30px;
+    border: 1px solid #000000;
+    z-index: 1;
+}
+.top .top-left .top-la li:hover{
+    background-color: #313844;
+}
+.top .top-left .top-la li p:hover{
+    opacity: 1;
+    color: #fff;
+}
+.top .top-left .top-la li{
+    display: inline-block;
+    width: 148px;
+    height: 143px;
+    border: 1px solid #3D434F;
+    float: left;
+    background-color: #272E3B;
+    text-align: center;
+}
+.top .top-left .top-la li p{
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #8B8E95;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.top .top-left .top-la .li1-1 a{
+    display: inline-block;
+    width: 62px;
+    height: 68px;
+    margin-top: 12px;
+    margin-left: 8px;
+
+    background: url("../images/game-icons-70.png") no-repeat -10px -0px;
+}
+.top .top-left .top-la .li2-2 a{
+    display: inline-block;
+    width: 62px;
+    height: 68px;
+    margin-top: 10px;
+    background: url("../images/game-icons-70.png") no-repeat -74px 0;
+}
+.top .top-left .top-la .li3-3 a{
+    display: inline-block;
+    width: 46px;
+    height: 68px;
+    margin-top: 10px;
+    background: url("../images/game-icons-70.png") no-repeat -152px 0;
+}
+.top .top-left .top-la .li4-4 a{
+    display: inline-block;
+    width: 64px;
+    height: 68px;
+    margin-top: 10px;
+    background: url("../images/game-icons-70.png") no-repeat -213px 0;
+}
+.top .top-left .top-la .li5-5 a{
+    display: inline-block;
+    width: 64px;
+    height: 68px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background: url("../images/game-icons-70.png") no-repeat -290px 0;
+}
+.top .top-left .top-la .li6-6 a{
+    display: inline-block;
+    width: 62px;
+    height: 68px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background: url("../images/game-icons-70.png") no-repeat -360px 0;
+}
+.top .top-left .show{
+    display: none;
+}
+
+/*头部右侧*/
+.top .top-right{
+    float: right;
+    position: relative;
+
+}
+.top .top-right li{
+    float: left;
+    line-height: 48px;
+    margin-right: 40px;
+}
+.top .top-right li a{
+    float: right;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #FFF;
+    opacity: 0.7;
+
+}
+.top .top-right li a:hover{
+    opacity: 1;
+}
+
+.top .top-right .iconfont{
+    font-weight: 800;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fff;
+    opacity: 0.5;
+}
+.top .top-right .iconfont:hover{
+    opacity: 1;
+}
+
+
+
+/*隐藏开始*/
+
+.top .top-right .right-login{
+    width: 274px;
+    height: 153px;
+    background-color: #272E3B;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    border: 1px solid #000;
+    z-index: 1;
+}
+
+.top-right .right-login .login-top{
+    width: 272px;
+    height: 94px;
+    border: 1px solid #3D434F;
+    position: relative;
+}
+.top-right .right-login .right-login-small{
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-color: transparent  transparent  #272E3B transparent;
+    border-style: solid dashed dashed dashed;
+    overflow: hidden;
+    position: absolute;
+    top: -19px;
+    right: 9px;
+}
+
+.right-login .login-top a{
+    display: inline-block;
+    width: 235px;
+    height: 47px;
+    background-color: #0A8ECB;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-family: "微软雅黑";
+    font-weight: 800;
+    color: #fff;
+    font-size: 16px;
+}
+.top-right .right-login .login-bom{
+    width: 272px;
+    height: 54px;
+    border: 1px solid #3D434F;
+    position: relative;
+}
+.top-right .right-login .login-bom a{
+    display: inline-block;
+    width: 272px;
+    height: 30px;
+    margin-top: 12px;
+    line-height: 30px;
+}
+.top-right .right-login .login-bom a:hover{
+    background-color: #353C48;
+
+}
+.top-right .right-login .login-bom a i{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+
+    background: url("../images/sprite-24-blue.png") no-repeat -99px -122px;
+    position: absolute;
+    top: 17px;
+    left: 6px;
+}
+
+
+
+
+
+/*header开始*/
+
+.header{
+    height: 65px;
+    background-color: #35405C;
+    margin-top: 20px;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.header .header-left{
+    float: left;
+    width: 240px;
+    height: 63px;
+    background: url(../images/nav-logo-sm.png) no-repeat ;
+    margin-left: 24px;
+}
+.header .header-centre{
+   width: 934px;
+    height: 65px;
+    float: left;
+}
+
+.header .header-centre ul li{
+    float: left;
+    line-height: 63px;
+    padding: 0 24px;
+    height: 65px;
+}
+
+/*隐层部分*/
+.li-gaishu{
+    height: 52px;
+    background-color:#49536C ;
+    position: absolute;
+    left: 9px;
+
+}
+.li-gaishu li{
+    float: left;
+
+}
+.li-gaishu li .a1{
+    margin-left: 286px;
+
+}
+.li-gaishu li .a2{
+    margin-left: 68px;
+}
+
+.li-gaishu li a{
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 0 5px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
+.li-gaishu li a:hover{
+    border-left: 2px solid #2089B3;
+}
+
+.header .header-centre ul li:hover{
+    background-color: #49536C;
+}
+.header .header-centre .li-1 img{
+    margin-left: 8px;
+}
+
+.header .header-centre ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
+.header .header-right{
+   float: right;
+    width: 130px;
+    height: 65px;
+    background-color: #F8931F;
+    text-align: center;
+
+}
+.header .header-right a{
+    color: #fff;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 65px;
+
+}
+/*大图部分*/
+.fg{
+    height: 1000px;
+
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+
+.fg .fg-cen{
+    width: 78%;
+    height: 45%;
+    margin: auto;
+    margin-top: 60px;
+    background-color: pink;
+    background: url("../images/overwatch-logo.png") no-repeat top center;
+}
+
+/*游戏介绍*/
+.cell{
+
+    width: 1174px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: -30px;
+    position: relative;
+}
+
+.cell .cell-left{
+    width: 340px;
+    height: 57px;
+    background-color: #FF9C00;
+    border-radius: 5px;
+    float: left;
+
+}
+.cell .cell-left .cell-a1 img{
+    width: 46px;
+    height: 46px;
+    margin-left: 66px;
+    margin-bottom: 20px;
+}
+.cell .cell-left .cell-a1 img:hover{
+    margin-top: -2px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.cell .cell-left .cell-a2{
+   display: inline-block;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+    font-weight: 800;
+    text-align: right;
+    margin-left: 80px;
+    margin-top: 22px;
+}
+
+.cell .cell-right{
+    width: 340px;
+    height: 57px;
+    background-color: #FF9C00;
+    border-radius: 5px;
+    float: right;
+}
+
+.cell .cell-right .cell-a3{
+    display: inline-block;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+    font-weight: 800;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.cell .cell-right img{
+   position: absolute;
+    top: -66px;
+}
+/*视频播放*/
+.vid{
+   position: absolute;
+    top: 18%;
+    left: 20%;
+}
+.close{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 848px;
+    left: 1212px;
+    text-align: center;
+    line-height: 20px;
+}
+.close i{
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.close i:hover{
+    opacity: 1;
+}
+
+
+/*新闻部分*/
+ .news{
+     height: 240px;
+     text-align: center;
+     overflow: hidden;
+ }
+.news h1{
+    margin-top: 35px;
+}
+.news h2{
+    display: inline-block;
+    width: 320px;
+    height: 40px;
+    margin-top: 56px;
+    border: 2px solid #01A4E5;
+    line-height: 40px;
+    font-size: 28px;
+    color: #01A4E5;
+}
+.news h2:hover{
+    background-color: #01A4E5;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*为未来而战*/
+.main{
+    height: 690px;
+    background: url("../images/main1.jpg") no-repeat top center;
+    overflow: hidden;
+}
+
+.main1{
+    background: url("../images/main2.jpg") no-repeat top center;
+
+}
+.main2{
+    height: 960px;
+    background: url("../images/main3.jpg") no-repeat top center;
+    overflow: hidden;
+}
+.main .main-center{
+    width: 1186px;
+    height: 690px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main .main-center .p1{
+    font-size: 76px;
+    color: #fff;
+    margin-top: 92px;
+    font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", "Hei SC", sans-serif;
+}
+.main .main-center .main-center-c p{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", "Hei SC", sans-serif;
+    margin-top: 70px;
+}
+
+.main .main-center .main-center-b{
+    width: 220px;
+    height: 60px;
+    background-color: #FF9C00;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    line-height: 60px;
+
+}
+.main .main-center .main-center-b a{
+    color: #fff;
+    font-size: 32px;
+    font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", "Hei SC", sans-serif;
+    font-weight: 800;
+}
+
+/*各俱特色英雄*/
+.candy{
+    height: 960px;
+    background: url("../images/candy.jpg") no-repeat top center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.candy h1{
+    margin-top: 95px;
+    color: #3E587D;
+    font-size: 76px;
+}
+.candy .candy-top{
+    margin-top: 105px;
+}
+.candy .candy-top p{
+    font-size: 30px;
+    color: #3E587D;
+}
+
+.candy .candy-cen{
+    margin-top: 123px;
+    height: 200px;
+    background-color: #424D6A;
+    opacity: 0.5;
+}
+
+
+
+/*大人物*/
+.candy .candy-person{
+    width: 1100px;
+    height: 345px;
+    margin: auto;
+    position: absolute;
+    top: 330px;
+    left: 0;
+
+}
+.candy .candy-person .candy-person-left{
+    margin-left: 370px;
+    float: left;
+}
+
+
+
+/*显示*/
+.candy .candy-person .hide{
+    display: none;
+}
+/*隐藏*/
+.candy .candy-person .show{
+    display: block;
+}
+.candy #candy-p{
+    width: 450px;
+    height: 345px;
+    position: absolute;
+    right: 110px;
+    top: 329px;
+}
+
+
+.candy #candy-p .h11{
+        color: #fff;
+    margin-top: 150px;
+}
+.candy #candy-p .candy-person-right .p11{
+    margin-top: 60px;
+    color: #fff;
+    font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", "Hei SC", sans-serif;
+    font-size: 16px;
+}
+/*//右边文字显示隐藏*/
+.candy #candy-p .show{
+    display: block;
+}
+.candy #candy-p .hide{
+    display: none;
+}
+
+
+
+
+
+
+/*小人物*/
+.candy  .candy-bom {
+    width: 1150px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 85px;
+
+}
+.candy  .candy-bom  li a span {
+    display: inherit;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+    font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", "Hei SC", sans-serif;
+}
+.candy .candy-bom .candy-bom-per li{
+    float: left;
+}
+
+.candy .candy-bom .candy-bom-per .leftli{
+    margin-left: 150px;
+}
+.candy .candy-bom .candy-bom-per li a{
+    display: inline-block;
+    width: 66px;
+    height: 70px;
+    background-color: #474646;
+    margin-left: 15px;
+    margin-top: 10px;
+    transform: skew(-34.8rad) translatex(13px);
+    border-radius: 5px;
+}
+.candy .candy-bom .candy-bom-per li a:hover{
+    margin-top: -.5px;
+    background-color: #F7931E;
+}
+.candy .candy-bom .candy-bom-per li img{
+    margin-top: 10px;
+
+}
+
+/*透明部分*/
+.blank{
+    min-height: 24rem;
+    background: fixed url("../images/dorado-desktop.jpg") 50% 55%;
+
+}
+
+
+
+
+
+
+
+/*购买手枪部分开始*/
+.gun{
+    width: 100%;
+    height: 656px;
+    background: url("../images/bg-museum.jpg") center top;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.gun .pic{
+    height:118%;
+    width:  50%;
+    background: url("../images/widowmaker-default-pc.png");
+    background-size: 100% auto;
+    position: absolute;
+    top: -118px;
+    left: -33px;
+}
+/*购买手枪部分结束*/
+
+.gun .hero{
+    color: #345177;
+    position: absolute;
+    top: 79px;
+    right: 150px;
+    font:italic 79px "microsoft yahei";
+    text-shadow: 0 4px 5px rgba(60,72,96,.5);
+}
+.gun .hero i{
+    color: #345177;
+    font-style: italic;
+    position: absolute;
+    top: 100px;
+    right: 160px;
+}
+.gun .future{
+    font: 28px "microsoft yahei";
+    color: #345177;
+    position: absolute;
+    top: 295px;
+    right: 236px;
+
+}
+.gun a{
+    display: block;
+    width: 220px;
+    height: 60px;
+    font:900 32px "宋体";
+    position: absolute;
+    top: 370px;
+    right: 290px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color:#FF9C00;
+}
+.gun a:hover{
+    background-color: #FFB033;
+}
+
+
+
+.buy{
+    border-top: 5px solid #969696;.buy-in
+    width: 1330px;
+    height: 310px;
+    background-image: url("../images/line.jpg");
+}
+.buy-in{
+    width: 1000px;
+    height: 310px;
+    margin: 0px auto;
+    position: relative;
+}
+.buy-in .buy-btn{
+    width: 195px;
+    height: 42px;
+    display: block;
+    line-height: 60px;
+    padding-top: 8px;
+    color: #000000;
+    position: absolute;
+    top: 83px;
+    left: 395px;
+    font:900 32px "宋体";
+    text-align: center;
+    background-color:#FF9C00;
+}
+.buy-in .buy-btn:hover{
+    background-color: #FFB033;
+}
+.buy-in p{
+    position: absolute;
+    top: 147px;
+    left: 120px;
+    font: 15px "宋体";
+    color: #ffffff;
+}
+.buy-in .yellow{
+    color:#FFB90D;
+}
+.buy-in p a{
+    text-decoration: underline;
+}
+.buy-in .setting{
+    width: 22px;
+    height: 22px;
+    background: url("../images/buytips-icon.png")no-repeat;
+    position: absolute;
+    top: -2px;
+    left: -25px;
+}
+.buy-in .join {
+    display: block;
+    width: 150px;
+    height: 36px;
+    color: #FDC70D;
+    text-align: center;
+    padding-top: 10px;
+    font: 700 24px "宋体";
+    border: 2px solid #FDC70D;
+    position: absolute;
+    top: 200px;
+    left: 412px;
+}
+.buy-in .join:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+/*结束部分*/
+@charset "utf-8";
+.footer{
+    width: 100%;
+    height: 325px;
+    border-top: 5px solid #989898;
+    background-color:#202020 ;
+    margin: 0 auto;
+
+}
+.footer-in{
+    width: 1000px;
+    height: 325px;
+    margin: 0px auto;
+}
+.footer-in .footer-in-top{
+    height: 280px;
+    border-bottom: 1px solid #404040;
+}
+.footer-in-top .list{
+    float: left;
+    margin-top: 45px;
+    width: 1000px;
+}
+.footer-in-top .list a{
+    padding-left: 50px;
+    font: 15px "微软雅黑";
+    color: #CBCBCB;
+    line-height: 15px;
+    position: relative;
+}
+.footer-in-top .list a .i1{
+    width: 14px;
+    height: 14px;
+    background: url("../images/sprite-16-blue.png")no-repeat -66px -2px;
+    position: absolute;
+    top: 1px;
+    left: 30px;
+}
+.footer-in-top .list a .i2{
+    background: url("../images/sprite-16-blue.png")no-repeat -99px -18px;
+    top: 4px;
+    left: 31px;
+}
+.footer-in-top .list a .i3{
+    background: url("../images/sprite-16-blue.png")no-repeat -18px -81px;
+    top: 4px;
+    left: 31px;
+}
+.footer-in .footer-in-top-bottom{
+    height: 150px;
+    clear: both;
+    position: relative;
+}
+.footer-in-left{
+    float: left;
+    width: 280px;
+    height: 150px;
+}
+.footer-in-left .im1{
+    width: 133px;
+    height: 71px;
+    position: absolute;
+    background: url("../images/blizzard.png") no-repeat;
+    top: 34px;
+    left: 2px;
+}
+.footer-in-left .im2{
+    width: 105px;
+    height: 33px;
+    position: absolute;
+    background: url("../images/logo_ne.png") no-repeat;
+    top:73px;
+    left:167px;
+}
+.footer-in-right{
+    margin-left: 100px;
+    height: 150px;
+    width: 620px;
+    float: left;
+}
+.footer-in-right .p1{
+    margin-top: 15px;
+    font: 13px "微软雅黑";
+}
+.footer-in-right .p1 a{
+    color: #F4F4F4;
+}
+.footer-in-right .p1 i{
+    padding:0px 15px ;
+}
+.footer-in-right .p2{
+    width: 620px;
+    height: 58px;
+    display: block;
+    margin-top: 20px;
+    color: #919191;
+    font: 7px "微软雅黑";
+    line-height: 20px;
+}
+.footer-in-right .p2 .text{
+    color: #919191;
+}
+.footer-in-right .p2 .text:hover{
+    color: #ffffff;
+}
+.footer-in-right .p3{
+    display: block;
+    height: 35px;
+    width: 620px;
+    margin-top: 15px;
+    position: relative;
+}
+.footer-in-right .p3 em{
+    position: absolute;
+    padding: 0px 5px;
+    top: 5px;
+    left: 130px;
+}
+.footer-in-right .p3 .s{
+    display: block;
+    height: 35px;
+    width: 135px;
+    float: left;
+    position: relative;
+}
+.footer-in-right .p3 .s .s1{
+    width: 25px;
+    height: 25px;
+    background: url("../images/sprite.png")no-repeat 0px -30px;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+.footer-in-right .p3 .s .s2{
+    width: 24px;
+    height: 26px;
+    background: url("../images/sprite.png")no-repeat -2px -90px;
+    position: absolute;
+    top:4px;
+    left: 35px;
+}
+.footer-in-right .p3 .s .s3{
+    background: url("../images/sprite.png")no-repeat 0px 0px;
+    position: absolute;
+    top:5px;
+    left: 70px;
+}
+.footer-in-right .p3 .s .s4{
+    background: url("../images/sprite.png")no-repeat 0px -60px;
+    position: absolute;
+    top:5px;
+    left: 100px;
+}
+.footer-in-right .p3 .span{
+    float: left;
+    height: 25px;
+    padding-top: 10px;
+    margin-left: 15px;
+    font: 12px "微软雅黑";
+    color: #919191;
+}
+.footer-in-right .p3 .span .parent{
+    color: #919191;
+}
+.footer-in-right .p3 .span .parent:hover{
+    color: #ffffff;
+}
+.footer-in-bottom .text-in{
+    width: 795px;
+    height: 45px;
+    margin: 0px auto;
+    text-align: center;
+    font: 10px "微软雅黑";
+    line-height: 20px;
+    color: #6D6D6D;
+}

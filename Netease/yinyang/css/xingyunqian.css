@@ -1,0 +1,238 @@
+body{
+    height: 3000px;
+}
+.tac {
+    text-align: center;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 !important;
+}
+.sideNav {
+    width: 144px;
+    height: 484px;
+    background: url(../images/sideBg.png) no-repeat;
+    background-size: 144px 484px;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    display: none;
+    z-index: 999;
+}
+
+.sideNav:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+
+.signBtn {
+    width: 144px;
+    height: 53px;
+    padding-top: 78px;
+    cursor: pointer;
+    background: url(../images/sideBtn.png) no-repeat center;
+    position: relative;
+}
+
+.sideNav .erwei {
+    width: 129px;
+    height: 147px;
+    margin: 0 auto;
+}
+
+.sideBtn {
+    width: 129px;
+    margin: 8px auto;
+    margin-top: -5px;
+}
+
+.sideBtn li {
+    width: 129px;
+    height: 33px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.sideBtn li a {
+    width: 129px;
+    height: 33px;
+    overflow: hidden;
+    display: block;
+    text-indent: -999px;
+    background: url(../images/sidePic5.png) no-repeat;
+}
+
+.sideBtn li.ios a {
+    background-position: 0 0;
+}
+
+.sideBtn li.ios a:hover {
+    background-position: -128px 0;
+}
+
+.sideBtn li.ard a {
+    background-position: 0 -37px;
+}
+
+.sideBtn li.ard a:hover {
+    background-position: -128px -37px;
+}
+
+.sideBtn li.PC a {
+    background-position: 0 -121px;
+}
+
+.sideBtn li.PC a:hover {
+    background-position: -128px -121px;
+}
+
+.sideBtn li.QQ a {
+    background-position: 0 -79px;
+}
+
+.sideBtn li.QQ a:hover {
+    background-position: -128px -79px;
+}
+
+.sign {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 20;
+    display: none;
+}
+
+.signOpcy {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+}
+
+.signBox {
+    display: none;
+    width: 272px;
+    height: 408px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -204px;
+    margin-left: -160px;
+    background: #fffef8;
+    z-index: 5;
+    padding: 0 24px;
+}
+
+.signBox_Tit {
+    height: 69px;
+    border-bottom: 1px solid #996c1f;
+    padding-top: 26px;
+    color: #996c1f;
+}
+
+.signBox_Tit span {
+    display: block;
+    width: 127px;
+    height: 33px;
+    margin: 0 auto;
+    background: url(../images/sidePic3.png) no-repeat;
+}
+
+.signBox_Tit p {
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+.signBox_Txt1 {
+    color: #333;
+    height: 96px;
+    overflow: hidden;
+}
+
+.signBox_Txt1 span {
+    display: block;
+    height: 59px;
+    line-height: 59px;
+}
+
+.signBox_Txt1 span font {
+    color: #eb4b43;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.signBox_Txt2 {
+    height: 96px;
+    border-top: 1px solid #996c1f;
+    overflow: hidden;
+}
+
+.signBox_Txt2 li {
+    height: 47px;
+    line-height: 47px;
+    border-bottom: 1px solid #996c1f;
+    display: block;
+}
+
+.signBox_Txt2 li span {
+    float: left;
+    width: 48px;
+    height: 47px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url(../images/sidePic3.png) no-repeat 0 -34px;
+}
+
+.signBox_Txt2 li.should span {
+    background-position: 0 -34px;
+}
+
+.signBox_Txt2 li.Bogey span {
+    background-position: -49px -34px;
+}
+
+.signBox_Txt2 li p {
+    float: left;
+    width: 206px;
+    padding-left: 10px;
+}
+
+.signBox_Txt3 {
+    line-height: 32px;
+    padding-top: 5px;
+}
+
+.signBox_Txt3 p {
+    height: 32px;
+    overflow: hidden;
+}
+
+.signClose {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -24px;
+    top: 0;
+    background: url(../images/sidePic3.png) no-repeat -98px -34px;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+#updown {
+    _top: expression(eval((document.compatMode&&document.compatMode=="CSS1Compat")?documentElement.scrollTop+documentElement.clientHeight-this.clientHeight-1:document.body.scrollTop+document.body.clientHeight-this.clientHeight-1));
+    position: fixed;
+    _position: absolute;
+    top: 200px;
+    right: 30px;
+    display: none;
+    z-index: 9999;
+}
+
+#updown span {
+    cursor: pointer;
+    width: 48px;
+    height: 50px;
+    display: block;
+}
+
+#updown .up {
+    background: url(../images/updown.png) no-repeat;
+}
+
+#updown .up:hover {
+    background: url(../images/updown.png) top right no-repeat;
+}
+
+#updown .down {
+    background: url(../images/updown.png) bottom left no-repeat;
+}
+
+#updown .down:hover {
+    background: url(../images/updown.png) bottom right no-repeat;
+}
+-->
+
+.maple {
+    position: absolute;
+    top: 0;
+    color: #f68A1e;
+}
